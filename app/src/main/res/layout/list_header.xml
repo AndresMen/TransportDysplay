@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+<com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Regular
+    android:id="@+id/tvheader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="fecha"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    android:background="@drawable/layofec"
+    android:paddingEnd="@dimen/margin_5"
+    android:paddingStart="@dimen/margin_5"/>
+</LinearLayout>

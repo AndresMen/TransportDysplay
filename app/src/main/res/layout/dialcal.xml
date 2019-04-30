@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.iniciocon"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/llar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio"
+                android:textSize="@dimen/font_18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio"
+                android:textSize="@dimen/font_18" />
+        </LinearLayout>
+
+
+        <com.example.mendez.transportdysplay.widget.miLayout
+            android:id="@+id/llm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:zigzagBackgroundColor="@color/fondo"
+            app:zigzagElevation="0dp"
+            app:zigzagHeight="5dp"
+            app:zigzagShadowAlpha="0.9"
+            app:zigzagSides="bottom"
+            app:zigzagPaddingContent="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/margin_30"
+                android:layout_marginEnd="@dimen/margin_30"
+                android:layout_marginTop="@dimen/margin_3"
+                android:weightSum="3">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+                    <TableRow>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"/>
+                    </TableRow>
+                    <TableRow>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"/>
+                    </TableRow>
+                    <TableRow>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtem"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:inputType="text|textMultiLine"
+                android:gravity="top"
+                android:background="@color/white"
+                android:hint="Escriba su comentario..."
+                android:layout_margin="1dp"
+                android:layout_gravity="bottom"/>
+        </com.example.mendez.transportdysplay.widget.miLayout>
+
+        <com.example.mendez.transportdysplay.widget.miLayout
+            android:id="@+id/llab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:zigzagBackgroundColor="@color/fondo"
+            app:zigzagElevation="0dp"
+            app:zigzagHeight="5dp"
+            app:zigzagShadowAlpha="0.9"
+            app:zigzagSides="top"
+            app:zigzagPaddingContent="10dp">
+            <com.example.mendez.transportdysplay.customfonts.TextView_Helvetica_Neue_bold
+                android:id="@+id/dc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dejar un comentario"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginBottom="@dimen/margin_30"/>
+            <EditText
+                android:id="@+id/edte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text|textMultiLine"
+                android:background="@color/white"
+                android:hint="Escriba su comentario..."
+                android:layout_margin="@dimen/margin_30"
+                android:visibility="gone" />
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="3.5"
+                android:stepSize="1"
+                android:layout_gravity="center"
+                android:theme="@style/RatingBar" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btncanen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancelar"
+                    android:background="@color/colorAccent"
+                    android:textColor="@color/white"
+                    android:layout_gravity="bottom"/>
+                <View
+                    android:layout_width="@dimen/margin_30"
+                    android:layout_height="1dp"/>
+                <Button
+                    android:id="@+id/btnenca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enviar"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/white"
+                    android:layout_gravity="bottom"/>
+            </LinearLayout>
+
+        </com.example.mendez.transportdysplay.widget.miLayout>
+    </LinearLayout>
+
+</LinearLayout>

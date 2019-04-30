@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/liberty7">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/lock"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAXI"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="45dp"
+        android:gravity="center"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="10dp"/>
+
+    <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Regular
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preparate para una  \nnueva experiencia \nen viajes"
+        android:textColor="#e7ecef"
+        android:textSize="30sp"
+        android:alpha="0.0"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp" />
+
+
+
+
+
+</LinearLayout>

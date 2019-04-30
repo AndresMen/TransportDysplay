@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:minWidth="120dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/color_farmacia"
+        android:gravity="center"
+        android:minHeight="120dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_search" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|start"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Filtrar Viajes por :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/colorPrimary" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <RadioButton
+                android:id="@+id/id_todos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Todos"
+                android:textColor="@color/colorTexto"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/id_completados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Completados"
+                android:textColor="@color/colorTexto"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/id_cancelados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancelados"
+                android:textColor="@color/colorTexto"
+                android:textSize="18sp" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

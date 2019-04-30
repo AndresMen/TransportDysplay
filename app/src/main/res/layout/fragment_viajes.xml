@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Viajes_fragment"
+    android:background="@drawable/background_splash"
+    android:orientation="vertical">
+
+    <!--EditText
+        android:id="@+id/editTextFil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="Todos los viajes"
+        android:inputType="none"
+        android:visibility="gone" /-->
+
+    <TextView
+        android:id="@+id/tvavvi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No tiene viajes realizados"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@color/comment_color"
+        android:typeface="serif" />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srlContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/reciclador"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:visibility="gone"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/editTextFil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="34dp"
+        android:clickable="true"
+        android:src="@drawable/ic_search"
+        app:fabSize="normal"
+        app:layout_anchorGravity="right|bottom"
+        android:visibility="gone"/>
+</RelativeLayout>

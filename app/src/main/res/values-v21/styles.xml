@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="dialog_animation_translate">
+        <item name="android:windowEnterAnimation">@anim/pop_enter</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit</item>
+    </style>
+    <style name="dialog_animation_scale">
+        <item name="android:windowEnterAnimation">@anim/scale_enter</item>
+        <item name="android:windowExitAnimation">@anim/scale_exit</item>
+    </style>
+    <style name="dialog_animation_translate_updown">
+        <item name="android:windowEnterAnimation">@anim/translate_enter_up</item>
+        <item name="android:windowExitAnimation">@anim/translate_exit_down</item>
+    </style>
+</resources>

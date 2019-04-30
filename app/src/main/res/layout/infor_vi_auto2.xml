@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <FrameLayout
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fondo_oscuro"/>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/nyimg2"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="bottom|center"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_avata"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+
+        <LinearLayout
+            android:id="@+id/llimes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/msg" />
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#d4dce1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:minHeight="120dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/llicar"
+                android:paddingLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/mapa_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="Fecha."
+                    android:textColor="@color/colorAccent"
+                    android:layout_gravity="center"
+                    android:textSize="15dp"/>
+                <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/tvlv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Ver ubicación"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:background="@color/colorLinea"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_20"/>
+            <LinearLayout
+                android:id="@+id/lliuser"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                   android:src="@drawable/inicio_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="Hora."
+                    android:textColor="@color/colorAccent"
+                    android:layout_gravity="center"
+                    android:textSize="15dp"/>
+                <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/tvho1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Información"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#d4dce1" />
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

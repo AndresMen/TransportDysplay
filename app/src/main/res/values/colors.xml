@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo">#bfbdc1</color>
+    <color name="fondo1">#a0ced1</color>
+    <color name="blue_ligth">#4163de</color>
+    <color name="white">#ffffff</color>
+
+    <color name="colorPrimary">#14122f</color>
+    <color name="colorPrimaryDark">#1d1937</color>
+    <color name="colorAccent">#ff1744</color>
+
+    <color name="colorTexto">#91a0ad</color>
+    <color name="colorLinea">#bfbdc1</color>
+
+    <color name="colorAccentT61">#e9edf5</color>
+    <color name="colorAccentT62">#edff98</color>
+    <color name="colorAccentT63">#fef3f5</color>
+    <color name="colorAccentT64">#e1ffc1</color>
+
+    <color name="colorAccentT66">#f0f5f6</color>
+
+    <color name="colorFondo">#f0f5f6</color>
+    <color name="colorEnviar">#69cfdd</color>
+    <color name="colorRecibir">#91a0ad</color>
+
+
+    <color name="colorIndivateTab">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorCardView">#f7f7f7</color>
+
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_500">#a4a4a4</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_800">#212121</color>
+
+
+    <color name="red">#cb0017</color>
+    <color name="home_location_color">#bc0015</color>
+    <color name="comment_color">#676767</color>
+    <color name="black">#000000</color>
+    <color name="heading_truck_type">#d52845</color>
+    <color name="grey">#727272</color>
+    <color name="grey_drk">#7d7d7d</color>
+    <color name="slide_user_name">#262626</color>
+    <color name="slide_user_num">#626262</color>
+    <color name="slide_option_menu">#323232</color>
+    <color name="dark_gray">#061324</color>
+    <color name="booking_truck_type">#8f0010</color>
+    <color name="border_color">#e3e3e3</color>
+    <color name="gray_light">#f1f1f1</color>
+    <color name="label_gray_light">#5b5f66</color>
+    <color name="pass_gray_light">#585858</color>
+    <color name="yellow">#ffe400</color>
+    <color name="yellow_texi">#fcd633</color>
+    <color name="footer_color">#dcdcdc</color>
+    <color name="footer_track_color">#575757</color>
+    <color name="footer_vertical_color">#c8c8c8</color>
+    <color name="dialog_error_color">#ff554d</color>
+    <color name="dialog_hit_color">#faad3b</color>
+    <color name="sucess_color">#2ECC71</color>
+    <color name="seprator_color">#d6d6d6</color>
+    <color name="rate_car_des">#808080</color>
+    <color name="reservation_color">#bbbbbb</color>
+    <color name="detail_color">#149a40</color>
+
+
+    <color name="color_farmacia">#c117bed7</color>
+
+
+    <color name="coloricon1">#edff98</color>
+    <color name="coloricon2">#fef3f5</color>
+    <color name="coloricon3">#e1ffc1</color>
+    <color name="coloricon4">#f0f5f6</color>
+    <color name="coloricon5">#e9edf5</color>
+    <color name="colorOrange">#ff1744</color>
+
+    <color name="checked">#40000000</color>
+
+
+</resources>

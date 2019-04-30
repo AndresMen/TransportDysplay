@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="190dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/llda">
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="MIN"
+                android:textSize="12dp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/dis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="0.7 Km"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="Desde:"
+                android:textSize="10dp"
+                android:textColor="@color/colorTexto" />
+            <TextView
+                android:id="@+id/direc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="direccion"
+                android:textSize="13dp"
+                android:textColor="@color/colorPrimaryDark" />
+            <TextView
+                android:id="@+id/has"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="Hasta:"
+                android:textSize="10dp"
+                android:textColor="@color/colorTexto" />
+            <TextView
+                android:id="@+id/direc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="direccion"
+                android:textSize="13dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+

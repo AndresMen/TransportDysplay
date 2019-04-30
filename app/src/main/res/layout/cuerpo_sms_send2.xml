@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/margin_10"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants">
+
+    <com.example.mendez.transportdysplay.widget.micheckbox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corner1"
+        android:layout_marginEnd="@dimen/margin_30"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/men"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:layout_alignParentTop="true"
+            android:text="SAMPLE"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <TextView
+
+            android:id="@+id/hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Sample"
+            android:layout_marginEnd="15dp"
+            android:textColor="@color/colorFondo"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

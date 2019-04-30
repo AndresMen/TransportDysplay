@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="FormTextInputLayou" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/yellow_texi</item>
+        <item name="android:textColor">@color/yellow_texi</item>
+        <item name="android:textSize">@dimen/font_14</item>
+        <!--<item name="colorAccent">@color/border_color</item>-->
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <!--<item name="colorAccent">@color/dialog_error_color</item>-->
+        <!--<item name="colorControlNormal">@color/border_color</item>-->
+        <!--<item name="colorControlActivated">@color/border_color</item>-->
+        <!--<item name="colorControlNormal">@color/border_color</item>-->
+        <!--<item name="colorControlActivated">@color/border_color</item>-->
+        <!--<item name="colorControlHighlight">@color/border_color</item>-->
+
+    </style>
+
+    <style name="FormTextInputLayoutTheme" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+
+        <!--<item name="android:textSize">@dimen/font_14</item>-->
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <!--<item name="colorAccent">@color/dialog_error_color</item>-->
+        <!--<item name="colorControlNormal">@color/border_color</item>-->
+        <!--<item name="colorControlActivated">@color/border_color</item>-->
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="colorAccent">@color/border_color</item>
+        <item name="colorControlNormal">@color/border_color</item>
+        <!--<item name="colorControlActivated">@color/border_color</item>-->
+        <!--<item name="colorControlHighlight">@color/border_color</item>-->
+    </style>
+    <style name="MyCustomTheme" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/MyAnimation.Window</item>
+    </style>
+
+    <style name="MyAnimation.Window" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/scale_enter</item>
+        <item name="android:windowExitAnimation">@anim/scale_exit</item>
+    </style>
+
+
+
+    <style name="RippleBlanco" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">@color/white</item>
+    </style>
+    <style name="RippleAcent" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">@color/dialog_error_color</item>
+    </style>
+
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">@color/white</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+    <style  name = "RatingBar"  parent = "Theme.AppCompat" >
+        <item  name = "colorControlNormal" > @color/white </item>
+        <item  name = "colorControlActivated" > @color/yellow_texi </item>
+    </style>
+</resources>

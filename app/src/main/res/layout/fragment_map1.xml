@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardviewbus"
+            app:cardCornerRadius="5.8dp"
+            android:layout_marginTop="8.9dp"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginRight="19.2dp"
+            android:layout_width="match_parent"
+            android:layout_height="62.2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_margin="@dimen/margin_5">
+                    <ImageView
+                        android:id="@+id/i1"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/icon_persona"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:paddingTop="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5.4dp"
+                    android:layout_weight="9">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actvbus"
+                        android:textSize="13.4sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="14.3dp"
+                        android:textColor="#323643"
+                        android:textColorHint="@color/colorTexto"
+                        android:textColorHighlight="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Escriba su destino..."/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:background="@color/footer_color"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:padding="5dp"
+                        android:tint="@color/black"
+                        android:id="@+id/i2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/icon_lupa6"
+                        android:background="?attr/selectableItemBackground" />
+                    <ImageView
+                        android:padding="5dp"
+                        android:tint="@color/black"
+                        android:id="@+id/ivcle"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_cl"
+                        android:background="?attr/selectableItemBackground"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabzo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:backgroundTint="@color/dialog_error_color"
+            app:srcCompat="@drawable/icon_lupa"
+            android:layout_marginStart="@dimen/width_10"
+            android:layout_marginTop="@dimen/width_10"
+            android:layout_below="@+id/cardviewbus"
+            tools:ignore="VectorDrawableCompat" />
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:id="@+id/iviva"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/colorTexto"
+                android:text="CONDUCTOR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip">
+
+
+                <LinearLayout
+                    android:id="@+id/nom_conductor"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8">
+
+                    <TextView
+                        android:textSize="16dp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text="DENNIS" />
+                </LinearLayout>
+                <View android:background="@color/colorTexto"
+                    android:layout_width="1.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginBottom="20.0dip" />
+                <LinearLayout
+                    android:id="@+id/llimes"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+                    <ImageView
+
+                        android:tint="@color/colorAccent"
+                        android:layout_gravity="center"
+                        android:layout_width="40.0dip"
+                        android:layout_height="22.0dip"
+                        android:src="@drawable/mensaje_icon" />
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text="Mensaje" />
+                </LinearLayout>
+
+                <View android:background="@color/colorTexto"
+                    android:layout_width="1.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginBottom="20.0dip" />
+                <LinearLayout
+                    android:id="@+id/lliuser"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:tint="@color/colorAccent"
+                        android:layout_gravity="center"
+                        android:layout_width="40.0dip"
+                        android:layout_height="22.0dip"
+                        android:src="@drawable/icon_usuario" />
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text="Informacion" />
+                </LinearLayout>
+
+                <View android:background="@color/colorTexto"
+                    android:layout_width="1.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginBottom="20.0dip" />
+                <LinearLayout
+                    android:id="@+id/llicar"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:tint="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_width="40.0dip"
+                        android:layout_height="22.0dip"
+                        android:src="@drawable/mapa_icon" />
+                    <TextView
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="11dp"
+                        android:text="Ver ubicacion" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "137016725263",
+    "firebase_url": "https://pruebatracker-5760d.firebaseio.com",
+    "project_id": "pruebatracker-5760d",
+    "storage_bucket": "pruebatracker-5760d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137016725263:android:e1dde1a295e836de",
+        "android_client_info": {
+          "package_name": "com.example.mendez.trackerprueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137016725263-qi3hko8bd1r1c9tn7619o3uigoficg58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2uvO1SHIBrKky2ZRWigfycTGjN7BSF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137016725263:android:69c05639bfb972d7",
+        "android_client_info": {
+          "package_name": "com.example.mendez.trackerservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137016725263-mgkiilcu6b7i7nvks0d97rbojdr6gi1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mendez.trackerservice",
+            "certificate_hash": "fec9eb3c0e7b27c233ad5da840fc7e77eec82107"
+          }
+        },
+        {
+          "client_id": "137016725263-qi3hko8bd1r1c9tn7619o3uigoficg58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2uvO1SHIBrKky2ZRWigfycTGjN7BSF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137016725263-qi3hko8bd1r1c9tn7619o3uigoficg58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137016725263:android:47a0f918d822a5b4",
+        "android_client_info": {
+          "package_name": "com.example.mendez.transportdysplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137016725263-g3hhfgursprcdk1d9pnr4phn059tpmb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mendez.transportdysplay",
+            "certificate_hash": "fec9eb3c0e7b27c233ad5da840fc7e77eec82107"
+          }
+        },
+        {
+          "client_id": "137016725263-7tdh3b4gjg5b7k1nm58rbcc48m7v1lok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mendez.transportdysplay",
+            "certificate_hash": "0c40302e9f31a559c3b59ef48944b4a059403231"
+          }
+        },
+        {
+          "client_id": "137016725263-qi3hko8bd1r1c9tn7619o3uigoficg58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2uvO1SHIBrKky2ZRWigfycTGjN7BSF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137016725263-qi3hko8bd1r1c9tn7619o3uigoficg58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

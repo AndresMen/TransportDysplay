@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/bottomsheet_ract">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+                android:id="@+id/lblListHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="# Detalle "
+                android:textSize="20sp"
+                android:textColor="#1c252a"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"/>
+
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d0d8e8"/>
+
+
+        <!--LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#f7f8fa"
+            android:orientation="horizontal">
+
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+                android:layout_weight="0.5"
+                android:id="@+id/lblListItem"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Fecha"
+                android:textSize="13sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:paddingLeft="30dp"
+                android:textColor="#323e46" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:background="#d4dce1"/>
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+                android:id="@+id/tvfe"
+                android:layout_weight="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7017983251"
+                android:textSize="13sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:paddingLeft="30dp"
+                android:textColor="#758692"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffff"
+            android:orientation="horizontal">
+
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+                android:layout_weight="0.5"
+                android:id="@+id/lblListItem2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Hora"
+                android:textSize="13sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:paddingLeft="30dp"
+                android:textColor="#323e46"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:background="#d4dce1"/>
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+                android:id="@+id/tvho"
+                android:layout_weight="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7017983251"
+                android:textSize="13sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:paddingLeft="30dp"
+                android:textColor="#758692"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#f7f8fa"
+            android:orientation="horizontal">
+
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+                android:layout_weight="0.5"
+                android:id="@+id/lblListItem3"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Conductor"
+                android:textSize="13sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:paddingLeft="30dp"
+                android:textColor="#323e46"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:background="#d4dce1"/>
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+                android:id="@+id/tvco"
+                android:layout_weight="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7017983251"
+                android:textSize="13sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:paddingLeft="30dp"
+                android:textColor="#758692"/>
+
+        </LinearLayout-->
+
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#d4dce1">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           >
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="Fecha"
+                android:textColor="#323e46"
+                android:textSize="13sp"
+             android:background="#f7f8fa"
+                android:layout_marginEnd="1dp"/>
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+
+                android:id="@+id/tvfe"
+                android:layout_width="187dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="7017983251"
+                android:textColor="#758692"
+                android:textSize="13sp"
+                android:background="#f7f8fa"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           >
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="Hora"
+                android:textColor="#323e46"
+                android:textSize="13sp"
+                android:background="#ffff"/>
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+
+                android:id="@+id/tvho"
+                android:layout_width="187dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="7017983251"
+                android:textColor="#758692"
+                android:textSize="13sp"
+                android:background="#ffff"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="Conductor"
+                android:textColor="#323e46"
+                android:textSize="13sp"
+                android:background="#f7f8fa"/>
+
+            <com.example.mendez.transportdysplay.customfonts.MyTextView_Roboto_Black
+
+                android:id="@+id/tvco"
+                android:layout_width="187dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="7017983251"
+                android:textColor="#758692"
+                android:textSize="13sp"
+                android:background="#f7f8fa"/>
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

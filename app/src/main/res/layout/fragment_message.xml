@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splash"
+    tools:context=".fragment.message"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="end"
+        android:id="@+id/llch"
+        android:visibility="gone">
+        <CheckBox
+            android:id="@+id/cheto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnbrs"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_borinac"
+            android:enabled="false"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lismessa"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:divider="@color/black"
+        android:layout_margin="@dimen/margin_10"
+        android:stackFromBottom="true"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/llme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <EditText
+            android:id="@+id/mensa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Escriba su mensaje...."
+            android:inputType="textMultiLine"
+            android:layout_weight="1" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabmensa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mesend"
+            android:gravity="end"
+            android:layout_margin="@dimen/margin_5"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No tiene mensajes"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        android:typeface="serif"
+        android:textColor="@color/comment_color"
+        />
+</LinearLayout>
